@@ -217,7 +217,7 @@ h6 {
 
 /* Section Hero */
 .section-hero {
-  background: linear-gradient(to bottom, rgba(3, 1, 24, 0.404), rgba(10, 1, 26, 0.384)), url('../public/images/hero.jpg');
+  background: linear-gradient(to bottom, rgba(3, 1, 24, 0.404), rgba(10, 1, 26, 0.384)), url('/images/hero.jpg');
   background-size: cover;
   background-position: center center;
   font-family: var(--font-space);
@@ -434,7 +434,7 @@ h6 {
 .section-service {
   padding: 4rem 0;
   text-align: center;
-  background: url('../public/images/blurry.png');
+  background: url('/images/blurry.png');
   background-size: cover;
   background-position: top center;
 }
@@ -512,7 +512,7 @@ h6 {
 /* Section Fixed Bg */
 .section-fixedbg {
   padding: 5rem 0;
-  background: linear-gradient(to right bottom, #185f04a9, #12460496), url('../public/images/teambg.jpg');
+  background: linear-gradient(to right bottom, #185f04a9, #12460496), url('/images/teambg.jpg');
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
@@ -950,7 +950,7 @@ footer .heart {
   align-items: center;
   justify-content: center;
   color: #fff;
-  background: linear-gradient(to bottom, rgba(3, 68, 28, 0.39), rgba(0, 0, 0, 0.438)), url('../public/images/otherbg.jpg');
+  background: linear-gradient(to bottom, rgba(3, 68, 28, 0.39), rgba(0, 0, 0, 0.438)), url('/images/otherbg.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
