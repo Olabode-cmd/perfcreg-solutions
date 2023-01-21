@@ -30,6 +30,11 @@
 
 main {
   position: relative;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a,
@@ -183,10 +188,10 @@ h6 {
   background: #fff;
   padding: 25px 0 !important;
   border-bottom: 1px solid #ddd;
-  /* position: sticky;
+  position: sticky !important;
   top: 0px;
-  left: 0px;
-  right: 0px; */
+  z-index: 10;
+  box-shadow: 0 .2rem .7rem rgba(0, 0, 0, 0.13);
 }
 
 .navbar .nav-link {
@@ -936,4 +941,16 @@ footer .lower-section h3 {
 
 footer .heart {
   color: red;
+}
+
+/* Other Hero */
+.other-hero {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: linear-gradient(to bottom, rgba(3, 68, 28, 0.39), rgba(0, 0, 0, 0.438)), url('../public/images/otherbg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }

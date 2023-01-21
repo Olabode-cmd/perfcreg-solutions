@@ -1,10 +1,11 @@
 import React from 'react'
 import Image from '../../public/images/leader.jpg'
 import { BsChevronRight } from 'react-icons/bs'
+import Link from 'next/link'
 
 export default function Sectionabout() {
   return (
-    <section className='section-about'>
+    <section className='section-about' id="about">
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-md-6">
@@ -26,7 +27,7 @@ export default function Sectionabout() {
                     </p>
 
                     <div className='d-flex align-items-center text-cta'>
-                    <a href="#" className='text-btn'>Read More</a>
+                    <Link href="/about" className='text-btn'>Read More</Link>
                   </div>
                 </div>
             </div>

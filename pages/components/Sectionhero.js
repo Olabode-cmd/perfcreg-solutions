@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Sectionhero() {
   return (
@@ -10,7 +11,7 @@ export default function Sectionhero() {
                     <h5>Best Creative Agency</h5>
                     <h1>Creating a better <br /> experience  for you</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    <a href="#" className="primary-btn mt-4">About Us &nbsp; &rarr;</a>
+                    <Link href="#about" className="primary-btn mt-4">About Us &nbsp; &rarr;</Link>
                 </div>
 
                 <div className="col-md-6">

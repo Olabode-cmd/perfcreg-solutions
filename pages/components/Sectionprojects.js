@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Project1 from '../../public/images/project1.jpg'
 import Project2 from '../../public/images/project2.jpg'
 import Project3 from '../../public/images/project3.jpg'
@@ -56,7 +57,7 @@ export default function Sectionprojects() {
 
                 <div className="text-center mt-4">
                     <div className='text-cta'>
-                        <a href="#" className='text-btn'>See More</a>
+                        <Link href="/projects" className='text-btn'>See More</Link>
                     </div>
                 </div>
             </div>

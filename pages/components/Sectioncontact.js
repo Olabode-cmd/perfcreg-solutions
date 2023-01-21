@@ -4,7 +4,7 @@ import { BiEnvelope } from 'react-icons/bi'
 
 export default function Sectioncontact() {
   return (
-    <section className="section-contact">
+    <section className="section-contact" id="contact">
         <div className="container">
             <div className="row">
                 <div className="col-md-6">

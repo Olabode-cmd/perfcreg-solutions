@@ -16,11 +16,11 @@ export default function Navbars() {
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
-                        <Nav.Link href="#home" className='nav-link'>Home</Nav.Link>
-                        <Nav.Link href="#link" className='nav-link'>About</Nav.Link>
-                        <Nav.Link href="#link" className='nav-link'>Services</Nav.Link>
-                        <Nav.Link href="#link" className='nav-link'>Portfolio</Nav.Link>
-                        <Nav.Link href="#link" className='nav-link'>Contact</Nav.Link>
+                        <Nav.Link href="/" className='nav-link'>Home</Nav.Link>
+                        <Nav.Link href="/about" className='nav-link'>About</Nav.Link>
+                        <Nav.Link href="/services" className='nav-link'>Services</Nav.Link>
+                        <Nav.Link href="/projects" className='nav-link'>Portfolio</Nav.Link>
+                        <Nav.Link href="#contact" className='nav-link'>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

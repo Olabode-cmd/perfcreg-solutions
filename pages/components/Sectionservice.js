@@ -1,6 +1,7 @@
 import React from 'react'
 import { HiOutlineDesktopComputer, HiOutlineFingerPrint } from 'react-icons/hi'
 import { MdMobileFriendly } from 'react-icons/md'
+import Link from 'next/link'
 // import  from 'react-icons/tb'
 
 export default function Sectionservice() {
@@ -72,7 +73,7 @@ export default function Sectionservice() {
 
         <div className="text-center mt-4">
           <div className='text-cta'>
-            <a href="#" className='text-btn'>See More</a>
+            <Link href="/services" className='text-btn'>See More</Link>
           </div>
         </div>
       </div>
