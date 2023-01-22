@@ -26,7 +26,7 @@ export default function Sectionhero() {
                         <form action="#">
                             <div className="form-box">
                                 <h3>Send a message</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quibusdam nulla.</p>
+                                <p>Upgrade your business with our innovative technology solutions. Contact us now</p>
 
                                 <div className="form-group">
                                     <input type="text" name="name" id="hero_name" placeholder='Name' className='form-control' />
@@ -34,7 +34,7 @@ export default function Sectionhero() {
                                     <textarea name="message" id="hero_message" placeholder='Message' className='form-control'></textarea>
                                 </div>
 
-                                <input type="submit" value="Submit Query" className='submit-btn' />
+                                <input type="submit" value="Submit Now" className='submit-btn' />
                             </div>
                         </form>
                     </div>
