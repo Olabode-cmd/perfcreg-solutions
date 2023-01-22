@@ -15,11 +15,11 @@ export default function Navtip() {
                             </span>
 
                             <span className='navinfo two'>
-                                <BiEnvelope className='navicon' /> info@perfcreg.com
+                                <BiEnvelope className='navicon' /> info@perfcreg.org
                             </span>
 
                             <span className='navinfo two'>
-                                <BiPhone className='navicon' /> +234 782 7822 123
+                                <BiPhone className='navicon' /> +234 803 4605 723
                             </span>
                         </div>
                     </div>
@@ -28,7 +28,7 @@ export default function Navtip() {
                     <div className="col-md-6">
                         <div className="d-flex justify-content-end">
                             <span className='officeinfo'>
-                                <HiOutlineClock className='navicon' /> Office hours: 8:00 AM - 6:45 PM
+                                <HiOutlineClock className='navicon' /> Office hours: 8:00 AM - 4:45 PM
                             </span>
 
                             <div className="d-flex align-items-center icons">
