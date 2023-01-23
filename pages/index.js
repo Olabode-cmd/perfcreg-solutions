@@ -43,7 +43,7 @@ export default function Home() {
         <Sectionhero />
         <Sectionabout />
 
-        <Sectionservice>
+        <Sectionservice title="Some of our Core Services">
           {
             service.map((items, index) => (
               <ServiceBox key={index} text={items.text} icon={items.icon} title={items.title} />
