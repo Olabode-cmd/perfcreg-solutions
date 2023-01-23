@@ -21,7 +21,8 @@ export default function Home() {
     {
       icon: <TbWorld className='service-icon'/>,
       title: 'Web Development',
-      text: 'At Perfcreg Solutions delivers custom web development services tailored to your business. We create responsive, user-friendly websites optimized for conversions and search engines using the latest technologies. Let us build a website that effectively communicates your value proposition and improves your online presence.'},
+      text: 'At Perfcreg Solutions delivers custom web development services tailored to your business. We create responsive, user-friendly websites optimized for conversions and search engines using the latest technologies. Let us build a website that effectively communicates your value proposition and improves your online presence.'
+    },
     {
       icon: 'home',
       title: 'Home',
