@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from '../../public/images/leader.jpg'
+import Saly7 from '../../public/images/Saly-7.png'
 import { BsChevronRight } from 'react-icons/bs'
 import Link from 'next/link'
 
