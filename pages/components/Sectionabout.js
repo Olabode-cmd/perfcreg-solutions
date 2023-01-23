@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from '../../public/images/leader.jpg'
+import Saly7 from '../../public/images/Saly-7.png'
 import { BsChevronRight } from 'react-icons/bs'
 import Link from 'next/link'
 
@@ -9,9 +10,10 @@ export default function Sectionabout() {
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-md-6">
-                    <div className="img-box">
+                    {/* <div className="img-box">
                         <img src={Image.src} className="about-img" />
-                    </div>
+                    </div> */}
+                    <img src={Saly7.src} />
                 </div>
                 <div className="col-md-6">
                     <h4 className='tag'>5 Years of experience</h4>

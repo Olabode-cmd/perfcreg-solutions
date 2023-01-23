@@ -217,9 +217,9 @@ h6 {
 
 /* Section Hero */
 .section-hero {
-  background: linear-gradient(to bottom, rgba(3, 1, 24, 0.404), rgba(10, 1, 26, 0.384)), url('/images/hero.jpg');
+  background: linear-gradient(to bottom, rgba(5, 88, 23, 0.514), rgba(4, 109, 30, 0.452)), url('/images/hero.jpg');
   background-size: cover;
-  background-position: center center;
+  /* background-position: center center; */
   font-family: var(--font-space);
   padding: 4rem 0;
 }
@@ -950,7 +950,12 @@ footer .heart {
   align-items: center;
   justify-content: center;
   color: #fff;
-  background: linear-gradient(to bottom, rgba(3, 68, 28, 0.39), rgba(0, 0, 0, 0.438)), url('/images/otherbg.jpg');
+  background: linear-gradient(to bottom, rgba(15, 218, 92, 0.466), rgba(4, 100, 12, 0.438)), url('/images/otherbg.jpg');
   background-size: cover;
   background-attachment: fixed;
+}
+@media (max-width: 767px) {
+  .row.reverse {
+    flex-direction: column-reverse;
+  }
 }
