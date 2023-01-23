@@ -10,8 +10,25 @@ import Sectionprojects from './components/Sectionprojects'
 import Sectionteam from './components/Sectionteam'
 import Sectioncontact from './components/Sectioncontact'
 import Footer from './components/Footer'
+import ServiceBox from './components/ServiceBox'
+import { HiOutlineDesktopComputer, HiOutlineFingerPrint } from 'react-icons/hi'
+import { MdMobileFriendly } from 'react-icons/md'
+import {TbWorld} from 'react-icons/tb'
 
 export default function Home() {
+
+  const service = [
+    {
+      icon: <TbWorld className='service-icon'/>,
+      title: 'Web Development',
+      text: 'At Perfcreg Solutions delivers custom web development services tailored to your business. We create responsive, user-friendly websites optimized for conversions and search engines using the latest technologies. Let us build a website that effectively communicates your value proposition and improves your online presence.'},
+    {
+      icon: 'home',
+      title: 'Home',
+      text: 'Lorem Ipsum'
+    },
+  ]
+
   return (
     <>
       <Head>
@@ -25,7 +42,14 @@ export default function Home() {
         <Navbars />
         <Sectionhero />
         <Sectionabout />
-        <Sectionservice />
+
+        <Sectionservice>
+          {
+            service.map((items, index) => (
+              <ServiceBox key={index} text={items.text} icon={items.icon} title={items.title} />
+            ))
+          }
+        </Sectionservice>
         <Sectionfixedbg />
         <Sectionprojects />
         <Sectioncards />

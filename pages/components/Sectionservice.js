@@ -4,7 +4,7 @@ import { MdMobileFriendly } from 'react-icons/md'
 import Link from 'next/link'
 // import  from 'react-icons/tb'
 
-export default function Sectionservice({...children}) {
+export default function Sectionservice({children}) {
   return (
     <section className='section-service'>
       <div className="container">
@@ -15,6 +15,7 @@ export default function Sectionservice({...children}) {
         <div className="services">
           <div className="row">
             {children}
+            
           </div>
         </div>
 
