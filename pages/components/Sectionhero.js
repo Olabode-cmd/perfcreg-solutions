@@ -17,7 +17,7 @@ export default function Sectionhero() {
                 <div className="row align-items-center">
                     <div className="col-md-6 hero-text">
                         <TypeWriter messages={msgs} />
-                        <p>We are a team of passionate technology specialist's with that works together to provide our client leading cutting-edge technology solutions in Nigeria and Oversea. We specialize in Software Development,
+                        <p>We are a team of passionate technology specialist's that works together to provide our client's leading cutting-edge technology solutions in Nigeria and Oversea. We specialize in Software Development,
                             Mobile App Development, Virtual Reality, cloud Solution Architecture, Internet of Things among others.</p>
                         <Link href="/about" className="primary-btn mt-4">About Us &nbsp; &rarr;</Link>
                     </div>
