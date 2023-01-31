@@ -11,23 +11,32 @@ import Sectionteam from './components/Sectionteam'
 import Sectioncontact from './components/Sectioncontact'
 import Footer from './components/Footer'
 import ServiceBox from './components/ServiceBox'
-import { HiOutlineDesktopComputer, HiOutlineFingerPrint } from 'react-icons/hi'
-import { MdMobileFriendly } from 'react-icons/md'
-import {TbWorld} from 'react-icons/tb'
+// import Sectionservice from './components/Sectionservice'
+import { MdMobileFriendly, MdOutlineBuild } from 'react-icons/md'
+import { GiVrHeadset } from 'react-icons/gi'
+import { TbWorld, TbCloudComputing } from 'react-icons/tb'
+
+import { AiOutlineSolution } from 'react-icons/ai'
 
 export default function Home() {
 
   const service = [
     {
-      icon: <TbWorld className='service-icon'/>,
-      title: 'Web Development',
-      text: 'At Perfcreg Solutions delivers custom web development services tailored to your business. We create responsive, user-friendly websites optimized for conversions and search engines using the latest technologies. Let us build a website that effectively communicates your value proposition and improves your online presence.'
+      icon: <MdOutlineBuild className='service-icon' />,
+      title: "Software Development",
+      text: "Perfcreg Solutions provides software development services that are designed to meet the unique needs of your business.We specialize in building custom software solutions that are tailored to your specific requirements.Whether you need a web application, a mobile app, or a desktop application, we have the expertise to make it happen."
     },
     {
-      icon: 'home',
-      title: 'Home',
-      text: 'Lorem Ipsum'
+      icon: <GiVrHeadset className='service-icon' />,
+      title: "Virtual Reality",
+      text: "Experience the future of technology with Perfcreg Solutions' Virtual Reality services. Immerse your customers in a fully interactive and engaging environment, whether it's for training, entertainment or product demonstrations. Our VR experts will work with you to create custom solutions tailored to your needs, and stay updated with the latest VR technologies to give you the competitive edge."
+  },
+    {
+      icon: <TbCloudComputing className='service-icon' />,
+      title: "Cloud Computing",
+      text: "Perfcreg Solutions offers a wide range of Cloud Computing services like Cloud Migration, Cloud Infrastructure Management, Cloud Security, Cloud Backup and Disaster recovery, Cloud Automation and many more. Let us help you stay competitive in today's digital landscape with our Cloud Computing services."
     },
+
   ]
 
   return (
