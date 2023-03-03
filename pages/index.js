@@ -54,10 +54,27 @@ export default function Home() {
         twitter: 'phemieny7',
         linkedin: 'oyewooluwafemi',
         image: Team1.src
+      },
+      {
+        name: 'oyewo oluwafemi',
+        position: "Fullstack Developer / Cloud Solution Architectect",
+        facebook: 'phemieny7',
+        twitter: 'phemieny7',
+        linkedin: 'oyewooluwafemi',
+        image: Team1.src
+      },
+      {
+        name: 'oyewo oluwafemi',
+        position: "Fullstack Developer / Cloud Solution Architectect",
+        facebook: 'phemieny7',
+        twitter: 'phemieny7',
+        linkedin: 'oyewooluwafemi',
+        image: Team1.src
       }
     ],
   })
   
+
   return (
     <>
       <Head>
@@ -84,7 +101,7 @@ export default function Home() {
         <Sectioncards />
         <Sectionteam>
           {
-            state.team.map((user) => {
+           state.team.length > 0 && state.team.map((user, index) => (
               <TeamCard
                 image={user.image}
                 name={user.name}
@@ -94,8 +111,9 @@ export default function Home() {
                 linkedin={user.linkedin}
                 key={user.name}
               />
-            })
+            ))
           }
+          
         </Sectionteam>
         <Sectioncontact />
         {/* <h1 className='text-primary'>Inter!</h1> */}
