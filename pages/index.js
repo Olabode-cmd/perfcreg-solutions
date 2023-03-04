@@ -48,27 +48,27 @@ export default function Home() {
     ],
     team: [
       {
-        name: 'oyewo oluwafemi',
-        position: "Fullstack Developer / Cloud Solution Architectect",
-        facebook: 'phemieny7',
-        twitter: 'phemieny7',
-        linkedin: 'oyewooluwafemi',
+        name: 'Adaranijo Idris',
+        position: "Lead Project Manager / Cloud Solution Architect",
+        facebook: '',
+        twitter: '',
+        linkedin: 'idris-adaranijo-61b669199/',
         image: Team1.src
       },
       {
-        name: 'oyewo oluwafemi',
-        position: "Fullstack Developer / Cloud Solution Architectect",
-        facebook: 'phemieny7',
+        name: 'Oyewo Oluwafemi',
+        position: "Lead Software Developer / Cloud Solution Architectect",
+        facebook: 'phemieny007',
         twitter: 'phemieny7',
-        linkedin: 'oyewooluwafemi',
+        linkedin: 'oyewo-oluwafemi-8bb42b7b',
         image: Team1.src
       },
       {
-        name: 'oyewo oluwafemi',
+        name: 'Olabode Balogun',
         position: "Fullstack Developer / Cloud Solution Architectect",
-        facebook: 'phemieny7',
+        facebook: 'phemieny007',
         twitter: 'phemieny7',
-        linkedin: 'oyewooluwafemi',
+        linkedin: 'oyewo-oluwafemi-8bb42b7b',
         image: Team1.src
       }
     ],
@@ -99,22 +99,6 @@ export default function Home() {
         <Sectionfixedbg />
         <Sectionprojects />
         <Sectioncards />
-        <Sectionteam>
-          {
-           state.team.length > 0 && state.team.map((user, index) => (
-              <TeamCard
-                image={user.image}
-                name={user.name}
-                position={user.position}
-                facebook={user.facebook}
-                twitter={user.twitter}
-                linkedin={user.linkedin}
-                key={user.name}
-              />
-            ))
-          }
-          
-        </Sectionteam>
         <Sectioncontact />
         {/* <h1 className='text-primary'>Inter!</h1> */}
       </main>

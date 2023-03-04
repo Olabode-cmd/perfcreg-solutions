@@ -1,7 +1,7 @@
 import React from 'react'
 import { HiOutlineLocationMarker, HiOutlineClock } from 'react-icons/hi'
 import { BiEnvelope, BiPhone } from 'react-icons/bi'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa'
 
 export default function Navtip() {
     return (
@@ -33,15 +33,27 @@ export default function Navtip() {
 
                             <div className="d-flex align-items-center icons">
                                 <span className="icon">
+                                <a href={`https://twitter.com/perfcreg`} className="icon">
                                     <FaFacebookF />
+                                </a>
                                 </span>
 
                                 <span className="icon">
-                                    <FaTwitter />
+                                    <a href={`https://twitter.com/perfcreg`} className="icon">
+                                        <FaTwitter />
+                                    </a>
                                 </span>
 
                                 <span className="icon">
-                                    <FaLinkedinIn />
+                                    <a href={`https://www.linkedin.com/company/perfcreg-solutions/`} className="icon">
+                                        <FaLinkedinIn />
+                                    </a>
+                                </span>
+
+                                <span className="icon">
+                                    <a href={`https://github.com/perfcreg-solutions`} className="icon">
+                                        <FaGithub />
+                                    </a>
                                 </span>
                             </div>
                         </div>

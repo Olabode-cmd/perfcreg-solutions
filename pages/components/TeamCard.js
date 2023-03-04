@@ -17,7 +17,7 @@ export default function TeamCard({ image, facebook, twitter, linkedin, name, pos
                         <a href={`https://twitter.com/${twitter}`} className="icon">
                             <FaTwitter />
                         </a>
-                        <a href={`https://linkedin.com/${linkedin}`} className="icon">
+                        <a href={`https://linkedin.com/in/${linkedin}`} className="icon">
                             <FaLinkedinIn />
                         </a>
                     </div>
