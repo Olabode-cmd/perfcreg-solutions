@@ -97,7 +97,7 @@ export default function About() {
                             <div className="col-md-6">
                                 <h4 className='tag'>Who Are we?</h4>
                                 <h1>Innovative Solutions for Your Business</h1>
-                                <p>We are Perfcreg Solutions, an innovative solution provider with over 10 years of experience. Our team of experts specialize in software development, cloud infrastructure, web and mobile application development, and virtual reality integration. We offer customized solutions that are tailored to meet the unique needs of our clients.
+                                <p>We are Perfcreg Solutions, an innovative solution provider with over 8 years of experience. Our team of experts specialize in software development, cloud infrastructure, web and mobile application development, and virtual reality integration. We offer customized solutions that are tailored to meet the unique needs of our clients.
                                 </p>
 
                                 <p>At Perfcreg Solutions, we are dedicated to providing quality services that deliver results. Our solutions are designed to help businesses enhance their online presence, increase efficiency, and achieve their goals. We pride ourselves on our commitment to excellence, attention to detail, and exceptional customer service.
