@@ -1,6 +1,6 @@
 import React from 'react'
 import Lottie from "lottie-react";
-import Iot from "./anime/iot.json";
+import Iot from "../../public/anime/iot.json";
 
 import Link from 'next/link'
 
