@@ -9,6 +9,7 @@ export default function App({ Component, pageProps }) {
 
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
+    // require()
     AOS.init()
   }, []);
 }
