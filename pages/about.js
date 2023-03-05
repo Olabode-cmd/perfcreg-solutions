@@ -104,10 +104,10 @@ export default function About() {
                                 </p>
                             </div>
                             <div className="col-md-6">
-                                {/* <div className="img-box">
-                                    <img src={Image.src} className="about-img" />
-                                </div> */}
-                                <img src={Saly7.src} />
+                                 <div className="img-box">
+                                    <img src={Saly7.src} className="about-img" />
+                                </div>
+                                {/* <img src={Saly7.src} /> */}
                             </div>
                         </div>
 
