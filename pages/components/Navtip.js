@@ -32,25 +32,25 @@ export default function Navtip() {
                             </span>
 
                             <div className="d-flex align-items-center icons">
-                                <span className="icon">
+                                <span>
                                 <a href={`https://twitter.com/perfcreg`} className="icon">
                                     <FaFacebookF />
                                 </a>
                                 </span>
 
-                                <span className="icon">
+                                <span>
                                     <a href={`https://twitter.com/perfcreg`} className="icon">
                                         <FaTwitter />
                                     </a>
                                 </span>
 
-                                <span className="icon">
+                                <span>
                                     <a href={`https://www.linkedin.com/company/perfcreg-solutions/`} className="icon">
                                         <FaLinkedinIn />
                                     </a>
                                 </span>
 
-                                <span className="icon">
+                                <span>
                                     <a href={`https://github.com/perfcreg-solutions`} className="icon">
                                         <FaGithub />
                                     </a>
