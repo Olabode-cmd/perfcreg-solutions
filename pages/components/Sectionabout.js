@@ -9,7 +9,7 @@ export default function Sectionabout() {
         <section className='section-about' id="about">
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-md-6" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+                    <div className="col-md-6" data-aos="fade-up" data-aos-duration="500">
                         <div className="img-box">
                         <Lottie animationData={Iot} loop={true} />
                         </div>

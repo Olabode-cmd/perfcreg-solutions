@@ -4,12 +4,12 @@ import TypeWriter from './TypeWriter'
 
 export default function Sectionhero() {
     let msgs = [
-    "Welcome to Perfcreg Solutions", 
-    "Bienvenido a Perfcreg Solutions", 
-    "Bienvenue chez Perfcreg Solutions", 
-    "Aki yin, Awa ni Perfcreg Solutions", 
-    "Nnọọ, anyị bụ Perfcreg Solutions", 
-    "Barka da zuwa, mu ne Perfcreg Solutions"];
+        "Welcome to Perfcreg Solutions",
+        "Bienvenido a Perfcreg Solutions",
+        "Bienvenue chez Perfcreg Solutions",
+        "Aki yin, Awa ni Perfcreg Solutions",
+        "Nnọọ, anyị bụ Perfcreg Solutions",
+        "Barka da zuwa, mu ne Perfcreg Solutions"];
     return (
         <section className='section-hero'>
             {/* <h2>Sectionhero</h2> */}
@@ -22,21 +22,23 @@ export default function Sectionhero() {
                         <Link href="/about" className="primary-btn mt-4">About Us &nbsp; &rarr;</Link>
                     </div>
 
-                    <div className="col-md-6">
-                        <form action="#">
-                            <div className="form-box">
-                                <h3>Send a message</h3>
-                                <p>Upgrade your business with our innovative technology solutions. Contact us now</p>
+                    <div className="col-md-6" >
+                        {/* <div data-aos="fade-in-left"> */}
+                            <form action="#">
+                                <div className="form-box">
+                                    <h3>Send a message</h3>
+                                    <p>Upgrade your business with our innovative technology solutions. Contact us now</p>
 
-                                <div className="form-group">
-                                    <input type="text" name="name" id="hero_name" placeholder='Name' className='form-control' />
-                                    <input type="email" name="email" id="hero_email" placeholder='Email' className='form-control' />
-                                    <textarea name="message" id="hero_message" placeholder='Message' className='form-control'></textarea>
+                                    <div className="form-group">
+                                        <input type="text" name="name" id="hero_name" placeholder='Name' className='form-control' />
+                                        <input type="email" name="email" id="hero_email" placeholder='Email' className='form-control' />
+                                        <textarea name="message" id="hero_message" placeholder='Message' className='form-control'></textarea>
+                                    </div>
+
+                                    <input type="submit" value="Submit Now" className='submit-btn' />
                                 </div>
-
-                                <input type="submit" value="Submit Now" className='submit-btn' />
-                            </div>
-                        </form>
+                            </form>
+                        {/* </div> */}
                     </div>
                 </div>
             </div>

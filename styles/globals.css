@@ -391,6 +391,16 @@ h6 {
   text-transform: uppercase;
 }
 
+
+/* Loading icon */
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .service-btnicon {
   color: var(--color-textgrey);
   font-weight: 600;
