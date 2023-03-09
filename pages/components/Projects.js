@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-export default function Projects(props) {
+export default function Projects({props}) {
   return (
       <Link href={props.url}>
           <div className="project">
