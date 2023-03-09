@@ -1,7 +1,7 @@
 import React from 'react'
 import { HiOutlineLocationMarker, HiOutlineClock } from 'react-icons/hi'
 import { BiEnvelope, BiPhone } from 'react-icons/bi'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa'
 
 export default function Navtip() {
     return (
@@ -15,11 +15,11 @@ export default function Navtip() {
                             </span>
 
                             <span className='navinfo two'>
-                                <BiEnvelope className='navicon' /> info@perfcreg.com
+                                <BiEnvelope className='navicon' /> info@perfcreg.org
                             </span>
 
                             <span className='navinfo two'>
-                                <BiPhone className='navicon' /> +234 782 7822 123
+                                <BiPhone className='navicon' /> +234 803 4605 723
                             </span>
                         </div>
                     </div>
@@ -28,20 +28,32 @@ export default function Navtip() {
                     <div className="col-md-6">
                         <div className="d-flex justify-content-end">
                             <span className='officeinfo'>
-                                <HiOutlineClock className='navicon' /> Office hours: 8:00 AM - 6:45 PM
+                                <HiOutlineClock className='navicon' /> Office hours: 8:00 AM - 4:45 PM
                             </span>
 
                             <div className="d-flex align-items-center icons">
-                                <span className="icon">
+                                <span>
+                                <a href={`https://twitter.com/perfcreg`} className="icon">
                                     <FaFacebookF />
+                                </a>
                                 </span>
 
-                                <span className="icon">
-                                    <FaTwitter />
+                                <span>
+                                    <a href={`https://twitter.com/perfcreg`} className="icon">
+                                        <FaTwitter />
+                                    </a>
                                 </span>
 
-                                <span className="icon">
-                                    <FaLinkedinIn />
+                                <span>
+                                    <a href={`https://www.linkedin.com/company/perfcreg-solutions/`} className="icon">
+                                        <FaLinkedinIn />
+                                    </a>
+                                </span>
+
+                                <span>
+                                    <a href={`https://github.com/perfcreg-solutions`} className="icon">
+                                        <FaGithub />
+                                    </a>
                                 </span>
                             </div>
                         </div>

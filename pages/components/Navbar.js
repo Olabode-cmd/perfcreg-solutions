@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
+import Logo from './../../public/perfcreg.jpg';
 
 // import { HiOutlineMenuAlt3 } from 'react/hi'
 import { HiOutlineMenuAlt3 } from 'react-icons/hi'
@@ -10,7 +11,10 @@ export default function Navbars() {
     return (
         <Navbar className="navbar" expand="lg">
             <Container>
-                <Navbar.Brand href="#home">Perfcreg</Navbar.Brand>
+                <Navbar.Brand href="#home">
+                    <img className="brand-img" src={Logo.src} />
+                    {/* Perfcreg */}
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <HiOutlineMenuAlt3 />
                 </Navbar.Toggle>

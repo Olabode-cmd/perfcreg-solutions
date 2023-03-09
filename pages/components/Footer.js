@@ -8,10 +8,8 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-md-5">
                         <h3 className="title">about</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Nihil doloremque reiciendis quo, ratione magnam sed temporibus
-                            Nihil doloremque reiciendis quo, ratione magnam sed temporibus
-                            reprehenderit debitis delectus, similique sapiente corrupti?
+                        <p>
+                        Empowering Your Digital Transformation Journey with Innovative and Customized Solutions. Our team of experts works with you every step of the way to bring your ideas to life. Let us help you achieve your business goals and take your organization to new heights.
                         </p>
                     </div>
 
