@@ -8,7 +8,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import $ from 'jquery';
 import {useRouter} from 'next/router';
-import Loading from './components/Loading';
+// import Loading from './components/Loading';
 
 
 export default function App({ Component, pageProps }) {
@@ -20,9 +20,14 @@ export default function App({ Component, pageProps }) {
     router.events.on("routeChangeError", (e) => setLoading(false));
     router.events.on("routeChangeStart", (e) => setLoading(false));
     router.events.on("routeChangeComplete", (e) => setLoading(true));
+    AOS.init({
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 50,
+    });
   }, []);
   
-  {router.isFallback && <Loading/>}
+  {router.isFallback && <h1>Loading</h1>}
   return <Component {...pageProps} />
 
   

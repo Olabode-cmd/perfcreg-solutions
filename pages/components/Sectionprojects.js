@@ -12,7 +12,7 @@ export default function Sectionprojects({data}) {
                 {
                         data.length > 0 && data.map((info, index) => (
                 
-                    <div className="col-md-4">
+                    <div className="col-md-4" key= {info.title}>
                         <div className="project">
                             <img src={info.img} className="project-img" />
                             <div className="project-details">
