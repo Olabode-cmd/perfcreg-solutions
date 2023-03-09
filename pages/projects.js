@@ -1,13 +1,15 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 import Otherhero from './components/Otherhero'
 import Navtip from './components/Navtip'
 import Navbars from './components/Navbar'
+import Projects from './components/Projects'
 import Sectioncontact from './components/Sectioncontact'
 import Footer from './components/Footer'
-import Project1 from '../public/images/project1.jpg'
-import Project2 from '../public/images/project2.jpg'
-import Project3 from '../public/images/project3.jpg'
+import Project1 from '../public/dauntless.png'
+import Project2 from '../public/lms-system.jpg'
+import Project3 from '../public/finance.jpg'
 
 export default function Services() {
     return (
@@ -27,77 +29,33 @@ export default function Services() {
                 <section className='section-projects'>
                     <div className="container">
                         <h4 className="tag">our successful projects</h4>
-                        <h2 className='title mb-4'>Lorem ipsum dolor sit amet consectetur.</h2>
+                        <h2 className='title mb-4'>And our clients love us for this.</h2>
 
                         <div className="row mt-4">
-                            <div className="col-md-4">
-                                <div className="project">
-                                    <img src={Project1.src} className="project-img" />
-                                    <div className="project-details">
-                                        <span className="tag">23 July, 2022</span>
 
-                                        <div className="info">
-                                            <h1>Dauntless GC</h1>
-                                            <p>Mobile App</p>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div className="col-md-4">
+                                <Projects url="https://www.dauntless.trade"
+                                    title="Dauntless GC" 
+                                    tag="Mobile App Dev"
+                                    img={Project1.src}
+                                    date="25th July, 2022" />
+                            </div>
+
+
+                            <div className="col-md-4">
+                                <Projects url="#"
+                                    title="Perfcreg eLearning"
+                                    tag="LMS System"
+                                    img={Project2.src}
+                                    date="In Progress" />
                             </div>
 
                             <div className="col-md-4">
-                                <div className="project">
-                                    <img src={Project2.src} className="project-img" />
-                                    <div className="project-details">
-                                        <span className="tag">23 July, 2022</span>
-
-                                        <div className="info">
-                                            <h1>Dauntless GC</h1>
-                                            <p>Mobile App</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-md-4">
-                                <div className="project">
-                                    <img src={Project3.src} className="project-img" />
-                                    <div className="project-details">
-                                        <span className="tag">23 July, 2022</span>
-
-                                        <div className="info">
-                                            <h1>Dauntless GC</h1>
-                                            <p>Mobile App</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-md-4">
-                                <div className="project">
-                                    <img src={Project2.src} className="project-img" />
-                                    <div className="project-details">
-                                        <span className="tag">23 July, 2022</span>
-
-                                        <div className="info">
-                                            <h1>Dauntless GC</h1>
-                                            <p>Mobile App</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-md-4">
-                                <div className="project">
-                                    <img src={Project1.src} className="project-img" />
-                                    <div className="project-details">
-                                        <span className="tag">23 July, 2022</span>
-
-                                        <div className="info">
-                                            <h1>Dauntless GC</h1>
-                                            <p>Mobile App</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                <Projects url="#"
+                                    title="Perfcreg Fintech"
+                                    tag="Web Development"
+                                    img={Project3.src}
+                                    date="15 Nov, 2022" />
                             </div>
                         </div>
 

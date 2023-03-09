@@ -1,7 +1,7 @@
 import '@/styles/globals.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Lottie from "lottie-react";
-import Loading from "../public/anime/loading.json";
+import Loading from "../public/anime/iot.json";
 import { useEffect } from 'react';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }) {
   const router = useRouter();
   
   {router.isFallback && ( <div className="loading-container">
-    <Lottie animationData={Loading} loop={true} />
+     <Lottie animationData={Loading} loop={true} />
   </div>)}
   return <Component {...pageProps} />
 

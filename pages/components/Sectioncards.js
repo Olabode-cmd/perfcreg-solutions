@@ -7,11 +7,24 @@ export default function Sectioncards() {
         <section className='section-cards'>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
+                    {/* <div className="col-md-6">
                         <div className="d-flex align-items-center cards card-1">
                             <div className="text">
                                 <h1>Virtual Reality Enthusiasts.</h1>
                                 <p>Over the years, we have worked on a few VR experiments but they remain confidential for now. Stay in touch for updates.</p>
+                            </div>
+
+                            <div className="image">
+                                <img src={Saly1.src} />
+                            </div>
+                        </div>
+                    </div> */}
+
+                    <div className="col-md-6">
+                        <div className="d-flex align-items-center cards card-1">
+                            <div className="text">
+                                <h1>Virtual Reality Enthusiasts</h1>
+                                <p>Perfcreg Solutions's Virtual Reality portfolio rolling out to the public soon.</p>
                             </div>
 
                             <div className="image">
