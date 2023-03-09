@@ -1,6 +1,9 @@
 import '@/styles/globals.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useEffect, useState } from 'react';
+import Lottie from "lottie-react";
+// import Loading from "../public/anime/iot.json";
+// import { useEffect } from 'react';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import $ from 'jquery';
@@ -18,13 +21,12 @@ export default function App({ Component, pageProps }) {
     router.events.on("routeChangeStart", (e) => setLoading(false));
     router.events.on("routeChangeComplete", (e) => setLoading(true));
   }, []);
+  
+  {router.isFallback && <Loading/>}
+  return <Component {...pageProps} />
 
-  return (<>
-    {loading ? <Loading /> :
-      <Component {...pageProps} />
-    }
-  </>
-  )
+  
+
 }
 
 

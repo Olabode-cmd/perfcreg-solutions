@@ -1,58 +1,33 @@
 import React from 'react'
 import Link from 'next/link'
-import Project1 from '../../public/images/project1.jpg'
-import Project2 from '../../public/images/project2.jpg'
-import Project3 from '../../public/images/project3.jpg'
 
-export default function Sectionprojects() {
+export default function Sectionprojects({data}) {
     return (
         <section className='section-projects'>
             <div className="container">
                 <h4 className="tag">our successful projects</h4>
-                <h2 className='title mb-4'>Lorem ipsum dolor sit amet consectetur.</h2>
+                <h2 className='title mb-4'>Projects we built and delivered successfully</h2>
 
                 <div className="row mt-4">
+                {
+                        data.length > 0 && data.map((info, index) => (
+                
                     <div className="col-md-4">
                         <div className="project">
-                            <img src={Project1.src} className="project-img" />
+                            <img src={info.img} className="project-img" />
                             <div className="project-details">
-                                <span className="tag">23 July, 2022</span>
+                                <span className="tag">{info.tag}</span>
 
                                 <div className="info">
-                                    <h1>Dauntless GC</h1>
-                                    <p>Mobile App</p>
+                                    <h1>{info.title}</h1>
+                                    <p>{info.tag}</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+        ))}
 
-                    <div className="col-md-4">
-                        <div className="project">
-                            <img src={Project2.src} className="project-img" />
-                            <div className="project-details">
-                                <span className="tag">23 July, 2022</span>
-
-                                <div className="info">
-                                    <h1>Dauntless GC</h1>
-                                    <p>Mobile App</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-md-4">
-                        <div className="project">
-                            <img src={Project3.src} className="project-img" />
-                            <div className="project-details">
-                                <span className="tag">23 July, 2022</span>
-
-                                <div className="info">
-                                    <h1>Dauntless GC</h1>
-                                    <p>Mobile App</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
 
                 <div className="text-center mt-4">

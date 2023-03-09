@@ -186,14 +186,18 @@ h6 {
 /* Navbar CSS */
 .navbar {
   background: #fff;
-  padding: 25px 0 !important;
+  padding: 5px 0 !important;
   border-bottom: 1px solid #ddd;
   position: sticky !important;
   top: 0px;
   z-index: 10;
   box-shadow: 0 .2rem .7rem rgba(0, 0, 0, 0.13);
 }
-
+.brand-img {
+  width: 65px;
+  margin: 0;
+  padding: 0;
+}
 .navbar .nav-link {
   text-transform: uppercase;
   letter-spacing: .5px;

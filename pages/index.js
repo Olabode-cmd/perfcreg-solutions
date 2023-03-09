@@ -18,6 +18,9 @@ import { GiVrHeadset } from 'react-icons/gi'
 import { TbWorld, TbCloudComputing } from 'react-icons/tb'
 import TeamCard from './components/TeamCard'
 
+import Projects from './components/Projects'
+
+
 
 
 import { AiOutlineSolution } from 'react-icons/ai'
@@ -25,6 +28,10 @@ import { AiOutlineSolution } from 'react-icons/ai'
 import Team1 from '../public/images/team1.jpg'
 import Team2 from '../public/images/team2.jpg'
 import Team3 from '../public/images/team3.jpg'
+import Project1 from '../public/images/project1.jpg'
+import Project2 from '../public/images/project2.jpg'
+import Project3 from '../public/images/project3.jpg'
+
 
 
 export default function Home() {
@@ -72,6 +79,30 @@ export default function Home() {
         image: Team1.src
       }
     ],
+    data : [
+        {
+            "url": "http://www.dauntless.trade",
+            title: "Dauntless GC",
+            tag: "Mobile application",
+            img: Project1.src,
+            date: "25th July, 2022"
+        },
+        {
+            url: "#",
+            title: "AI e-Learning Platform",
+            tag: "LMS System",
+            img: Project2.src,
+            date: "In Progress"
+        },
+        {
+            url: "https://l9hha3dxz1.execute-api.eu-west-2.amazonaws.com/production/tc-backend/docs",
+            title: "Thrift System Api",
+            tag: "IOT",
+            img: Project3.src,
+            date: "15 Nov, 2022"
+        }
+
+    ]
   })
   
 
@@ -81,7 +112,7 @@ export default function Home() {
         <title>Perfcreg Solutions - Leading Provider of Web Development, Mobile App Development, Virtual Reality and IoT Solutions in Nigeria</title>
         <meta name="description" content="Perfcreg Solutions is a leading provider of web development, mobile app development, virtual reality, solution architecture and IoT solutions in Nigeria. We help businesses drive growth and success with innovative technology solutions." />
         <meta name="keywords" content="Perfcreg Solutions, Technology Solutions, Nigeria, Web Development, Mobile App Development, Virtual Reality, Solution Architecture, IoT, Business Growth, Success, Perfcreg.com, perfcreg.org, perfcreg" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
         <Navtip />
@@ -97,7 +128,7 @@ export default function Home() {
           }
         </Sectionservice>
         <Sectionfixedbg />
-        <Sectionprojects />
+        <Sectionprojects  data={state.data}/>
         <Sectioncards />
         <Sectioncontact />
         {/* <h1 className='text-primary'>Inter!</h1> */}

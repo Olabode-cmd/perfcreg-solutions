@@ -13,10 +13,13 @@ import Saly7 from '../public/images/Saly-7.png'
 import Saly3 from '../public/images/Saly-3.png'
 import TypeWriter from './components/TypeWriter'
 
+import Lottie from "lottie-react";
+import Pick1 from "../public/anime/25216-team-work.json";
+import Pick2 from "../public/anime/74036-iot-transparent.json";
+import Pick3 from "../public/anime/90222-work-team.json";
+import Pick4 from "../public/anime/97525-code-dark.json";
 
 import Team1 from '../public/images/team1.jpg'
-import Team2 from '../public/images/team2.jpg'
-import Team3 from '../public/images/team3.jpg'
 
 
 export default function About() {
@@ -104,19 +107,17 @@ export default function About() {
                                 </p>
                             </div>
                             <div className="col-md-6">
-                                 <div className="img-box">
-                                    <img src={Saly7.src} className="about-img" />
+                                <div className="img-box">
+                                    <Lottie animationData={Pick1} loop={true} />
                                 </div>
-                                {/* <img src={Saly7.src} /> */}
                             </div>
                         </div>
 
                         <div className="row align-items-center reverse">
-                            <div className="col-md-6">
-                                {/* <div className="img-box">
-                                    <img src={Image.src} className="about-img" />
-                                </div> */}
-                                <img src={Saly3.src} />
+                        <div className="col-md-6">
+                                <div className="img-box">
+                                    <Lottie animationData={Pick2} loop={true} />
+                                </div>
                             </div>
 
                             <div className="col-md-6">
@@ -142,10 +143,9 @@ export default function About() {
                                 </p>
                             </div>
                             <div className="col-md-6">
-                                {/* <div className="img-box">
-                                    <img src={Image.src} className="about-img" />
-                                </div> */}
-                                <img src={Saly7.src} />
+                                <div className="img-box">
+                                    <Lottie animationData={Pick4} loop={true} />
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,8 @@
 import React from 'react'
 import Lottie from "lottie-react";
 import Iot from "../../public/anime/iot.json";
+import Pick3 from "../../public/anime/90222-work-team.json";
+
 
 import Link from 'next/link'
 
@@ -11,7 +13,7 @@ export default function Sectionabout() {
                 <div className="row align-items-center">
                     <div className="col-md-6">
                         <div className="img-box">
-                        <Lottie animationData={Iot} loop={true} />
+                        <Lottie animationData={Pick3} loop={true} />
                         </div>
                     </div>
                     <div className="col-md-6">
