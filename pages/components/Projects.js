@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 
-export default function Projects({props}) {
+export default function Projects(props) {
   return (
-      <Link href={props.url}>
+      <Link href={props.url} _blank="true">
           <div className="project">
               <img src={props.img} className="project-img" />
               <div className="project-details">
@@ -21,3 +21,4 @@ export default function Projects({props}) {
 
 
 
+// /opt/alt/php56/var/lib/php/session

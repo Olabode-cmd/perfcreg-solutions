@@ -14,7 +14,7 @@ import Project3 from '../public/finance.jpg'
 export default function Services() {
     const data = [
         {
-            "url": "http://www.dauntless.trade",
+            url: "http://www.dauntless.trade",
             title: "Dauntless GC",
             tag: "Mobile application",
             img: Project1.src,
