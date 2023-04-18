@@ -128,7 +128,7 @@ export default function Home() {
           }
         </Sectionservice>
         <Sectionfixedbg />
-        <Sectionprojects  data={state.data}/>
+        <Sectionprojects data={state.data}/>
         <Sectioncards />
         <Sectioncontact />
         </main>
