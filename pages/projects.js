@@ -59,8 +59,15 @@ export default function Project() {
                         <h2 className='title mb-4'>And our clients love us for this.</h2>
 
                         <div className="row mt-4">
-                        
-                       {} <Projects data={project}/>
+                        {data.length > 0 && data.map((data, index) => (
+                            <div className="col-md-4" key={data.date}>
+                                <Projects url={data.url}
+                                    title={data.title}
+                                    tag={data.tag}
+                                    img={data.img}
+                                    date={data.date} />
+                            </div>
+                        ))}
                         </div>
 
                     </div>
