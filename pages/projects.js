@@ -10,8 +10,9 @@ import Footer from './components/Footer'
 import Project1 from '../public/dauntless.png'
 import Project2 from '../public/lms-system.jpg'
 import Project3 from '../public/finance.jpg'
+import Sectionprojects from './components/Sectionprojects'
 
-export default function Services() {
+export default function Project() {
     const data = [
         {
             url: "http://www.dauntless.trade",
@@ -58,16 +59,8 @@ export default function Services() {
                         <h2 className='title mb-4'>And our clients love us for this.</h2>
 
                         <div className="row mt-4">
-                        {
-                        project.length > 0 && project.map((data, index) => (
-                            <div className="col-md-4" key={data.date}>
-                                <Projects url={data.url}
-                                    title={data.title}
-                                    tag={data.tag}
-                                    img={data.img}
-                                    date={data.date} />
-                            </div>
-                        ))}
+                        
+                       {} <Projects data={project}/>
                         </div>
 
                     </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-export default function Sectionprojects({data}) {
+export default function Sectionprojects(data) {
     return (
         <section className='section-projects'>
             <div className="container">
