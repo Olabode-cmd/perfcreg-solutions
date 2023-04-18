@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 
-export default function Projects({props}) {
+export default function Projects(props) {
   return (
-      <Link href={props.url}>
+      <a href={props.url} target='_blank'>
           <div className="project">
               <img src={props.img} className="project-img" />
               <div className="project-details">
@@ -15,7 +15,7 @@ export default function Projects({props}) {
                   </div>
               </div>
           </div>
-      </Link>
+      </a>
   )
 }
 

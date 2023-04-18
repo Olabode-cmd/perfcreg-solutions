@@ -81,7 +81,7 @@ export default function Home() {
     ],
     data : [
         {
-            "url": "http://www.dauntless.trade",
+            url: "http://www.dauntless.trade",
             title: "Dauntless GC",
             tag: "Mobile application",
             img: Project1.src,
@@ -131,8 +131,7 @@ export default function Home() {
         <Sectionprojects  data={state.data}/>
         <Sectioncards />
         <Sectioncontact />
-        {/* <h1 className='text-primary'>Inter!</h1> */}
-      </main>
+        </main>
       <Footer />
     </>
   )
