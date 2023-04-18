@@ -131,8 +131,7 @@ export default function Home() {
         <Sectionprojects  data={state.data}/>
         <Sectioncards />
         <Sectioncontact />
-        {/* <h1 className='text-primary'>Inter!</h1> */}
-      </main>
+        </main>
       <Footer />
     </>
   )
