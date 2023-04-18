@@ -31,7 +31,6 @@ import Team3 from '../public/images/team3.jpg'
 import Project1 from '../public/images/project1.jpg'
 import Project2 from '../public/images/project2.jpg'
 import Project3 from '../public/images/project3.jpg'
-import Project from './projects';
 
 
 
@@ -82,7 +81,7 @@ export default function Home() {
     ],
     data : [
         {
-            "url": "http://www.dauntless.trade",
+            url: "http://www.dauntless.trade",
             title: "Dauntless GC",
             tag: "Mobile application",
             img: Project1.src,
@@ -129,11 +128,6 @@ export default function Home() {
           }
         </Sectionservice>
         <Sectionfixedbg />
-        {
-            state.data.map((items, index) => (
-              <Projects key={index} text={items.text} icon={items.icon} title={items.title} />
-            ))
-          }
         <Sectionprojects  data={state.data}/>
         <Sectioncards />
         <Sectioncontact />
