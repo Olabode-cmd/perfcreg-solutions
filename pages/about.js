@@ -20,6 +20,12 @@ import Pick3 from "../public/anime/90222-work-team.json";
 import Pick4 from "../public/anime/97525-code-dark.json";
 
 import Team1 from '../public/images/team1.jpg'
+import Femi from '../public/images/femi.jpg'
+import Bode from '../public/images/bode.jpg'
+import Idris from '../public/images/idris.jpg'
+
+
+
 
 
 export default function About() {
@@ -32,15 +38,15 @@ export default function About() {
                 facebook: '',
                 twitter: '',
                 linkedin: 'idris-adaranijo-61b669199/',
-                image: Team1.src
+                image: Idris.src
             },
             {
                 name: 'Oyewo Oluwafemi',
                 position: "Software Developer / Cloud Solution Architectect",
-                facebook: 'phemieny007',
+                facebook: 'phemieny7',
                 twitter: 'phemieny7',
                 linkedin: 'oyewo-oluwafemi-8bb42b7b',
-                image: Team1.src
+                image: Femi.src
             },
             {
                 name: 'Olabode Balogun',
@@ -48,24 +54,24 @@ export default function About() {
                 facebook: 'phemieny007',
                 twitter: 'phemieny7',
                 linkedin: 'oyewo-oluwafemi-8bb42b7b',
-                image: Team1.src
+                image: Bode.src
             },
-            {
-                name: 'Omoniyi Opeyemi',
-                position: "Frontend Engineer",
-                facebook: '',
-                twitter: 'Electro40679166',
-                linkedin: 'opemipo-omoniyi11111',
-                image: Team1.src
-            },
-            {
-                name: 'Karaole Muizz',
-                position: "Fullstacke Developer/ Graphics Designer",
-                facebook: '',
-                twitter: 'Electro40679166',
-                linkedin: 'opemipo-omoniyi11111',
-                image: Team1.src
-            },
+            // {
+            //     name: 'Omoniyi Opeyemi',
+            //     position: "Frontend Engineer",
+            //     facebook: '',
+            //     twitter: 'Electro40679166',
+            //     linkedin: 'opemipo-omoniyi11111',
+            //     image: Team1.src
+            // },
+            // {
+            //     name: 'Karaole Muizz',
+            //     position: "Fullstack Developer (PHP) / Graphics Designer",
+            //     facebook: '',
+            //     twitter: 'Electro40679166',
+            //     linkedin: 'opemipo-omoniyi11111',
+            //     image: Team1.src
+            // },
         ],
     })
     const [msg, setMsg] = React.useState([])

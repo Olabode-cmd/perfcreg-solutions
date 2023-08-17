@@ -141,7 +141,7 @@ export default function Sectioncontact() {
                                 <BiEnvelope className='contact-icon' />
                                 <div>
                                     <h1>Email</h1>
-                                    <p>contact@perfcreg.org<br /></p>
+                                    <p>info@perfcreg.org<br /></p>
                                 </div>
                             </div>
                         </div>
