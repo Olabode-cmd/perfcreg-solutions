@@ -75,7 +75,7 @@ export default function Home() {
     team: [
       {
         name: 'Adaranijo Idris',
-        position: "Lead Project Manager / Cloud Solution Architect",
+        position: "ICT / Solutions Architect Consultant.",
         facebook: '',
         twitter: '',
         linkedin: 'idris-adaranijo-61b669199/',
