@@ -91,7 +91,7 @@ export default function Home() {
       },
       {
         name: 'Olabode Balogun',
-        position: "Fullstack Developer / Cloud Solution Architectect",
+        position: "Frontend Developer / Technical Writer",
         facebook: 'phemieny007',
         twitter: 'phemieny7',
         linkedin: 'oyewo-oluwafemi-8bb42b7b',
