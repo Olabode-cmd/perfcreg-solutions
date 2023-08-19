@@ -34,7 +34,7 @@ export default function About() {
         team: [
             {
                 name: 'Adaranijo Idris',
-                position: "Lead Project Manager / Cloud Solution Architect",
+                position: "ICT / Solutions Architect Consultant.",
                 facebook: '',
                 twitter: '',
                 linkedin: 'idris-adaranijo-61b669199/',
@@ -42,7 +42,7 @@ export default function About() {
             },
             {
                 name: 'Oyewo Oluwafemi',
-                position: "Software Developer / Cloud Solution Architectect",
+                position: "Fullstack Software Developer / Devops",
                 facebook: 'phemieny7',
                 twitter: 'phemieny7',
                 linkedin: 'oyewo-oluwafemi-8bb42b7b',
