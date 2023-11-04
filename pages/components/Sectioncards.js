@@ -7,11 +7,24 @@ export default function Sectioncards() {
         <section className='section-cards'>
             <div className="container">
                 <div className="row">
+                    {/* <div className="col-md-6">
+                        <div className="d-flex align-items-center cards card-1">
+                            <div className="text">
+                                <h1>Virtual Reality Enthusiasts.</h1>
+                                <p>Over the years, we have worked on a few VR experiments but they remain confidential for now. Stay in touch for updates.</p>
+                            </div>
+
+                            <div className="image">
+                                <img src={Saly1.src} />
+                            </div>
+                        </div>
+                    </div> */}
+
                     <div className="col-md-6">
                         <div className="d-flex align-items-center cards card-1">
                             <div className="text">
-                                <h1>Lorem ipsum dolor sit.</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ea accusantium maxime quae minima! Repellendus!</p>
+                                <h1>Virtual Reality Enthusiasts</h1>
+                                <p>Perfcreg Solutions's Virtual Reality portfolio rolling out to the public soon.</p>
                             </div>
 
                             <div className="image">
@@ -23,8 +36,8 @@ export default function Sectioncards() {
                     <div className="col-md-6">
                         <div className="d-flex align-items-center cards card-2">
                             <div className="text">
-                                <h1>Lorem ipsum dolor sit.</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ea accusantium maxime quae minima! Repellendus!</p>
+                                <h1>Aiming for Logistics too.</h1>
+                                <p>Perfcreg Solutions's solution for problems in logictics industry going mainstream soon too.</p>
                             </div>
 
                             <div className="image">
